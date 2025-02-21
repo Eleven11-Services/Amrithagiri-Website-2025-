@@ -2388,6 +2388,7 @@
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
   background-color: #00000080;
+  background-image: linear-gradient(#0003, #0003);
   position: absolute;
   inset: 0%;
 }
@@ -2490,7 +2491,9 @@
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-family: Montserrat, sans-serif;
   font-size: 1.2rem;
+  font-weight: 300;
   line-height: 1.4rem;
 }
 
@@ -4377,6 +4380,7 @@
 }
 
 .card-details {
+  color: #333;
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -4407,7 +4411,7 @@
 }
 
 .text-size-medium-copy {
-  text-align: center;
+  text-align: left;
   margin-top: 2rem;
   font-size: 1.125rem;
   line-height: 2rem;
@@ -4509,6 +4513,7 @@
   border-radius: 10px;
   margin-bottom: 100px;
   padding: 30px;
+  text-decoration: none;
   position: relative;
   box-shadow: 1px 1px 15px #13131380;
 }
@@ -13271,7 +13276,7 @@
 .prof-priyankar-profile {
   text-align: left;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-size: 3rem;
   line-height: 3.5rem;
 }
@@ -14814,6 +14819,50 @@
   display: none;
 }
 
+.section-priyanakr-copy-for-kerala-university-giriish {
+  background-color: #eae8e5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.media-list-copy-copyn-for-ku {
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.image-721-copy-for-girish {
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 400px;
+  width: 80%;
+}
+
+.paragraph-55 {
+  text-align: left;
+}
+
+.section_header36-copy-copy-forr-girish {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section_header36-copy-copy-forr-girish-copy-for-mobile {
+  background-color: #fff;
+  display: none;
+}
+
+.girish-proile {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-navbar-wrapper {
     grid-column-gap: 100px;
@@ -14956,6 +15005,10 @@
     line-height: 58px;
   }
 
+  .header36_content {
+    max-width: 55rem;
+  }
+
   .insights-cta, .section-priyanakr, .section-get-eye-clinic {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -14964,9 +15017,19 @@
   .ave-section-1 {
     font-size: 14px;
   }
+
+  .section-priyanakr-copy-for-kerala-university-giriish {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
+  .image-overlay-layer-3 {
+    background-color: #00000070;
+    background-image: linear-gradient(#0000005e, #0000005e);
+  }
+
   .footer-navbar-wrapper {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -15076,6 +15139,10 @@
     display: none;
   }
 
+  .header36_content {
+    max-width: 60rem;
+  }
+
   .insights-cta, .section-priyanakr, .section-get-eye-clinic {
     padding-top: 160px;
     padding-bottom: 160px;
@@ -15083,6 +15150,15 @@
 
   .text-align-center-39 {
     padding-top: 100px;
+  }
+
+  .section-priyanakr-copy-for-kerala-university-giriish {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .image-721-copy-for-girish {
+    width: 70%;
   }
 }
 
@@ -18114,6 +18190,19 @@
 
   .home_team_list {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .section-priyanakr-copy-for-kerala-university-giriish {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section_header36-copy-copy-forr-girish {
+    display: none;
+  }
+
+  .section_header36-copy-copy-forr-girish-copy-for-mobile {
+    display: block;
   }
 }
 
@@ -21182,6 +21271,19 @@
   .for-mobilesection_header36-copy-copy-copy {
     display: block;
   }
+
+  .section-priyanakr-copy-for-kerala-university-giriish {
+    padding-top: 66px;
+    padding-bottom: 70px;
+  }
+
+  .section_header36-copy-copy-forr-girish {
+    display: none;
+  }
+
+  .section_header36-copy-copy-forr-girish-copy-for-mobile {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -23702,6 +23804,24 @@
   .unesco {
     color: #fff;
   }
+
+  .media-list-copy-copyn-for-ku {
+    flex-direction: column;
+  }
+
+  .section_header36-copy-copy-forr-girish {
+    display: none;
+  }
+
+  .section_header36-copy-copy-forr-girish-copy-for-mobile {
+    display: block;
+  }
+
+  .girish-proile {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 #w-node-_55f02404-4e9c-513b-1c75-cd61d262ea46-8ecf39e8 {
@@ -23999,6 +24119,10 @@
   place-self: auto center;
 }
 
+#w-node-_254fb296-d190-92b7-1af7-37bd7aa49636-9b524b62, #w-node-_0eba4192-d00b-d797-c3c5-e0fc69f7279d-9b524b62 {
+  justify-self: end;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-8ecf39e8, #w-node-_69c8d0a8-0dda-ad86-fe58-845220f69559-20f69511, #w-node-_9e313c03-0c3d-2ed6-9313-e2cda7158b7b-a7158b75, #w-node-_1e22d13b-9292-1db5-fb71-f275d909e2b1-d84fc328, #w-node-_1e22d13b-9292-1db5-fb71-f275d909e327-d84fc328, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b0d-0a6855fd, #w-node-_9cc7eeb7-29e5-13c3-c9b4-85169562bae2-7477ab21, #w-node-_9cc7eeb7-29e5-13c3-c9b4-85169562bbbe-7477ab21, #w-node-_431c05ff-0365-a01f-6fcc-9bba84330046-2d7a4473 {
     justify-self: center;
@@ -24068,7 +24192,7 @@
     justify-self: start;
   }
 
-  #w-node-_0a3f8ced-46a9-3da5-3a7a-21ef6aedae5b-46e515d5, #w-node-_19416514-5c3d-2357-066b-4d438f390f74-46e515d5, #w-node-_4694ad9e-a026-0b6a-cfd0-6d48596f2f32-46e515d5, #w-node-c4234e31-595b-a576-a69e-c9aab54bba18-46e515d5 {
+  #w-node-_0a3f8ced-46a9-3da5-3a7a-21ef6aedae5b-46e515d5, #w-node-_19416514-5c3d-2357-066b-4d438f390f74-46e515d5, #w-node-_4694ad9e-a026-0b6a-cfd0-6d48596f2f32-46e515d5, #w-node-c4234e31-595b-a576-a69e-c9aab54bba18-46e515d5, #w-node-_254fb296-d190-92b7-1af7-37bd7aa49636-9b524b62, #w-node-_0eba4192-d00b-d797-c3c5-e0fc69f7279d-9b524b62 {
     justify-self: start;
   }
 }
@@ -24110,7 +24234,7 @@
     order: 9999;
   }
 
-  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-885188d5 {
+  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-885188d5, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-9b524b62 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
