@@ -1,10 +1,15 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Feb 21 2025 05:07:40 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Feb 21 2025 05:32:55 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="67b6c29149c1ba2a46e515d5" data-wf-site="676179c1a48b45478ecf39db">
 <head>
   <meta charset="utf-8">
-  <title>Amrithagiri Himalaya Landing Page</title>
-  <meta content="Amrithagiri Himalaya Landing Page" property="og:title">
-  <meta content="Amrithagiri Himalaya Landing Page" property="twitter:title">
+  <title>Invitation to Our Free Webinar on Mahakumbh – 2025</title>
+  <meta content="We are delighted to invite you to a Free Webinar on Mahakumbh – 25: A Journey of Peace, hosted by Amrithagiri Research Foundation (ARF) in collaboration with the UNESCO Chair for Peace, Banaras Hindu University (BHU), MIT World Peace University(Maharashtra), CPD(Centre for Peace and Development) Varanasi." name="description">
+  <meta content="Invitation to Our Free Webinar on Mahakumbh – 2025" property="og:title">
+  <meta content="We are delighted to invite you to a Free Webinar on Mahakumbh – 25: A Journey of Peace, hosted by Amrithagiri Research Foundation (ARF) in collaboration with the UNESCO Chair for Peace, Banaras Hindu University (BHU), MIT World Peace University(Maharashtra), CPD(Centre for Peace and Development) Varanasi." property="og:description">
+  <meta content="Invitation to Our Free Webinar on Mahakumbh – 2025" property="twitter:title">
+  <meta content="We are delighted to invite you to a Free Webinar on Mahakumbh – 25: A Journey of Peace, hosted by Amrithagiri Research Foundation (ARF) in collaboration with the UNESCO Chair for Peace, Banaras Hindu University (BHU), MIT World Peace University(Maharashtra), CPD(Centre for Peace and Development) Varanasi." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -329,12 +334,53 @@
                 </div>
               </div>
             </div>
+            <script>
+              function submitForm() {
+                // Get the form element
+                var form = document.getElementById("wf-form-Contact-1-Form");
+                var msg = document.querySelector(".w-form-done");
+                
+                // Check if all required fields are filled
+                var isValid = true;
+                var formData = new FormData(form);
+                for (var [key, value] of formData.entries()) {
+                  if (!value.trim()) {
+                    isValid = false;
+                    break;
+                  }
+                }
+            
+                if (!isValid) {
+                  alert("Please fill out all required fields.");
+                  return;
+                }
+            
+                // Send form data using Fetch API (or use XMLHttpRequest)
+                fetch("https://docs.google.com/forms/d/e/1FAIpQLSewrxIpeuawDrHFu5XwJeq87NPs1T_qgq1j6WqV0o-yF8FlEg/formResponse?usp=pp_url", {
+                  method: "POST",
+                  body: formData
+                })
+                .then(response => {
+                  // Handle the response if needed
+                  console.log("Form submitted successfully:", response);
+                })
+                .catch(error => {
+                  // Handle errors
+                  console.error("Error submitting form:", error);
+                });
+            
+                msg.classList.remove("w-form-done");
+              }
+            </script>
             <div class="max-width-medium-8 align-center">
               <div class="contact-us_contact-form_component-copy-for-elevenlanding-page w-form">
-                <form id="wf-form-Contact-1-Form" name="wf-form-Contact-1-Form" data-name="Contact 1 Form" method="get" class="contact-us_contact-form_form-copy" data-wf-page-id="67b6c29149c1ba2a46e515d5" data-wf-element-id="4925186e-0a72-bd5c-21af-fb356680d26f">
-                  <div class="form_field-wrapper"><label for="Contact-1-Name" class="form_field-label-copy"><strong>Name</strong></label><input class="form_input-11 w-input" maxlength="256" name="Contact-1-Name" data-name="Contact 1 Name" placeholder="Eg:James" type="text" id="Contact-1-Name" required=""></div>
-                  <div class="form_field-wrapper"><label for="Contact-1-Name-2" class="form_field-label-copy"><strong>Email</strong></label><input class="form_input-11 w-input" maxlength="256" name="Contact-1-Name-2" data-name="Contact 1 Name 2" placeholder="Eg:info@gmail.com" type="email" id="Contact-1-Name-2"></div>
-                  <div class="form_field-wrapper"><label for="Contact-1-Email" class="form_field-label-copy-2"><strong class="bold-text-182">Phone Number</strong></label><input class="form_input-11 w-input" maxlength="256" name="Contact-1-Email-2" data-name="Contact 1 Email 2" placeholder="Eg: +91 934343434" type="tel" id="Contact-1-Email-2" required=""></div><input type="submit" data-wait="Please wait..." id="w-node-_4925186e-0a72-bd5c-21af-fb356680d286-46e515d5" data-w-id="4925186e-0a72-bd5c-21af-fb356680d286" style="opacity:0" class="submitbuttoncontactelevenlandingpage w-button" value="Submit">
+                <form id="wf-form-Contact-1-Form" name="entry.377193181" data-name="Contact 1 Form" method="get" class="contact-us_contact-form_form-copy" data-wf-page-id="67b6c29149c1ba2a46e515d5" data-wf-element-id="4925186e-0a72-bd5c-21af-fb356680d26f">
+                  <div class="form_field-wrapper"><label for="Contact-1-Name" class="form_field-label-copy"><strong>Name</strong></label><input class="form_input-11 w-input" maxlength="256" name="entry.377193181" data-name="Contact 1 Name" placeholder="Eg:James" type="text" id="Contact-1-Name" required=""></div>
+                  <div id="w-node-_4925186e-0a72-bd5c-21af-fb356680d275-46e515d5" class="form_field-wrapper"><label for="Contact-1-Name-2" class="form_field-label-copy"><strong>Email</strong></label><input class="form_input-11 w-input" maxlength="256" name="entry.362241133" data-name="Contact 1 Name 2" placeholder="Eg:info@gmail.com" type="email" id="Contact-1-Name-2"></div>
+                  <div id="w-node-_4925186e-0a72-bd5c-21af-fb356680d27a-46e515d5" class="form_field-wrapper"><label for="Contact-1-Email" class="form_field-label-copy-2"><strong class="bold-text-182">Phone Number</strong></label><input class="form_input-11 w-input" maxlength="256" name="entry.204016399" data-name="Contact 1 Email 2" placeholder="Eg: +91 934343434" type="tel" id="Contact-1-Email-2" required=""></div>
+                  <div style="text-align: center;">
+                    <a href="#" onclick="submitForm()" class="submitbuttoncontactelevenlandingpage w-button">Let's Connect</a>
+                </div>
                 </form>
                 <div class="success-message w-form-done">
                   <div class="success-text">Thank you! We have received your submission. Please Refresh the Page for Another Submission. You can download our Brochure <a href="https://drive.google.com/uc?export=download&amp;id=1sEm1PivIwUvX9TS78I8vE8zSK4beu1WL" class="link-7"><span class="download-brochure">here</span></a>
@@ -447,7 +493,7 @@
           </div>
           <div class="footer-social-media">
             <a href="https://www.facebook.com/" target="_blank" class="social-link-item first w-inline-block"><img width="20" height="23" alt="Facebook" src="images/facebook-white.svg" loading="lazy"></a>
-            <a href="https://twitter.com/" target="_blank" class="social-link-item w-inline-block"><img sizes="(max-width: 479px) 10vw, (max-width: 991px) 23px, (max-width: 1439px) 2vw, (max-width: 1919px) 23px, 1vw" height="23" alt="Twitter" src="images/twitter-3-1.png" loading="lazy" srcset="images/twitter-3-1-p-500.png 500w, images/twitter-3-1.png 512w"></a>
+            <a href="https://twitter.com/" target="_blank" class="social-link-item w-inline-block"><img sizes="(max-width: 991px) 23px, (max-width: 1439px) 2vw, (max-width: 1919px) 23px, 1vw" height="23" alt="Twitter" src="images/twitter-3-1.png" loading="lazy" srcset="images/twitter-3-1-p-500.png 500w, images/twitter-3-1.png 512w"></a>
             <a href="https://www.linkedin.com/" target="_blank" class="social-link-item w-inline-block"><img width="23" loading="lazy" alt="Linkedin" src="images/linkedin-white.svg"></a>
             <a href="https://www.instagram.com/" target="_blank" class="social-link-item w-inline-block"><img width="28" loading="lazy" alt="Instagram" src="images/instagram-white.svg"></a>
           </div>
