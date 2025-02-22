@@ -11851,7 +11851,7 @@
   justify-content: center;
   align-items: center;
   width: 35rem;
-  height: 15rem;
+  height: 50rem;
   padding: 2.3rem 5rem;
   display: none;
   position: fixed;
@@ -11866,6 +11866,7 @@
 
 .pop-up-p {
   color: #fff;
+  text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -23198,20 +23199,26 @@
   }
 
   .pop-up {
+    height: 40rem;
     padding: 1rem;
+    display: none;
+    bottom: 10%;
   }
 
-  .pop-up-p {
+  .pop-up-h1, .pop-up-p {
     text-align: center;
   }
 
   .button-white {
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 0;
     font-size: .8rem;
     line-height: 1rem;
   }
 
   .pop-up-event {
-    width: 20rem;
+    width: 18rem;
     height: 34rem;
     display: none;
     right: auto;
@@ -23301,7 +23308,13 @@
   }
 
   .kumbhamela-wrapper {
-    width: 200px;
+    width: 220px;
+  }
+
+  .popup-image {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .button-insights {
@@ -23821,6 +23834,10 @@
     text-align: center;
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .image-723 {
+    margin-top: 40px;
   }
 }
 
