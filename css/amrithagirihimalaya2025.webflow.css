@@ -9464,6 +9464,7 @@
   background-color: #d9d9d9;
   flex-direction: column;
   align-items: flex-start;
+  height: auto;
   max-height: 100%;
   padding: 1.5rem;
 }
@@ -15978,6 +15979,10 @@
     width: auto;
     padding: .75rem 0;
     font-size: 1.125rem;
+  }
+
+  .text-color-white-3 {
+    line-height: 4rem;
   }
 
   .heading-style-h2-copy {
