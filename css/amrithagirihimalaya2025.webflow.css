@@ -4209,7 +4209,7 @@
 }
 
 .header-blog-2._8 {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/crowded-indian-city.webp');
+  background-image: linear-gradient(#00000080, #00000080), url('../images/portrait-young-girl-with-traditional-clothing.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -11201,7 +11201,7 @@
 
 .section-20.stakeholders {
   padding-top: 80px;
-  padding-bottom: 0;
+  padding-bottom: 40px;
   display: block;
 }
 
