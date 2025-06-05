@@ -6635,7 +6635,7 @@
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   color: #fff;
-  background-image: url('../images/DSCF0278-1_2.webp');
+  background-image: url('../images/677cea02a61fefc65f85762d_DSCF0278-1.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11623,7 +11623,7 @@
 }
 
 .image-block-copy._3 {
-  background-image: url('../images/DSCF0278-1_2.webp');
+  background-image: url('../images/677cea02a61fefc65f85762d_DSCF0278-1.webp');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -13001,7 +13001,7 @@
 }
 
 .image-block-s3._2 {
-  background-image: url('../images/DSCF0278-1_2.webp');
+  background-image: url('../images/677cea02a61fefc65f85762d_DSCF0278-1.webp');
   background-position: 50%;
   background-size: cover;
 }
@@ -16011,6 +16011,110 @@
 
 .slide-item-mg {
   margin-right: 28px;
+}
+
+.movies-head {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.card-003_wrapper-2 {
+  aspect-ratio: 2 / 3;
+  color: #fff;
+  border-radius: .5em;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 800px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 #0000, 0 1px .4px #00000008, 0 2px .8px #0000000a, 0 3.4px 1.6px #0000000b, 0 5.4px 2.9px #0000000c, 0 8.9px 5.3px #0000000c, 0 15.4px 10.4px #0000000d, 0 30.6px 22.8px #0000000e;
+}
+
+.container-38 {
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.videoes {
+  background-color: #0000;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.badge-5 {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  background-color: #ffffff05;
+  border: 1px solid #ffffff0f;
+  border-radius: 99px;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 1.7;
+  display: flex;
+  box-shadow: inset 0 -4px 12px #ffffff1a;
+}
+
+.movies-holder {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.movie-box {
+  width: 33.33%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.graphic-designing {
+  color: #fcf3d7;
+  text-align: center;
+  background-color: #1f1f30;
+  border-radius: 4px;
+  padding: .75rem 1.5rem;
+  font-weight: 500;
+  transition: all .25s;
+  box-shadow: 2px 3px 0 2px #fcf3d7;
+}
+
+.graphic-designing:hover {
+  box-shadow: 0 0 #fcf3d7;
+}
+
+.graphic-designing.is-alternate {
+  color: #fff;
+  background-color: #fcf3d7;
+  background-image: linear-gradient(158deg, #1f4d99, #18ab9e);
+  border: 2px solid #010d3c;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: 2px 3px 0 2px #010d3c;
+}
+
+.graphic-designing.is-alternate:hover {
+  box-shadow: 0 0 #010d3c;
+}
+
+.text-block-63 {
+  font-size: 1.5rem;
+}
+
+.card-003_name-2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 @media screen and (min-width: 1280px) {
@@ -19667,6 +19771,22 @@
     padding-top: 118px;
     padding-bottom: 118px;
   }
+
+  .card-003_wrapper-2 {
+    height: auto;
+  }
+
+  .badge-5 {
+    border-radius: 10px;
+  }
+
+  .movies-holder {
+    flex-flow: column;
+  }
+
+  .movie-box {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -22937,6 +23057,26 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
+  .card-003_wrapper-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .videoes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .movies-holder {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -25787,6 +25927,41 @@
   .bold-text-203 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  .movies-head {
+    flex-flow: column;
+  }
+
+  .card-003_wrapper-2 {
+    height: 650px;
+  }
+
+  .videoes {
+    padding-bottom: 0;
+  }
+
+  .badge-5 {
+    border-radius: 10px;
+  }
+
+  .movies-holder {
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .movie-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .graphic-designing.is-alternate {
+    margin-top: 10px;
+  }
+
+  .text-block-63 {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
