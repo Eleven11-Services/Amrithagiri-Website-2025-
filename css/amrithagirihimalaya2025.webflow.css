@@ -7847,7 +7847,7 @@
   line-height: 14px;
   transition-property: all;
   transition-duration: .2s;
-  display: inline-block;
+  display: flex;
 }
 
 .button-19:hover {
@@ -16366,6 +16366,62 @@
 
 .paragraph-58 {
   font-size: 1.2rem;
+}
+
+._565656 {
+  grid-column-gap: 51px;
+  grid-row-gap: 51px;
+  display: flex;
+}
+
+.sdkfklgjnkl {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #31705d;
+  border: 2px solid #169b6d;
+  border-radius: 5px;
+  padding: 20px 50px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  transition-property: all;
+  transition-duration: .2s;
+  display: inline-block;
+}
+
+.sdkfklgjnkl:hover {
+  color: #fff;
+  transform: translate(0, -2px);
+}
+
+._666 {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  display: flex;
+}
+
+.djdj {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #31705d;
+  border: 2px solid #169b6d;
+  border-radius: 5px;
+  padding: 20px 50px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  transition-property: all;
+  transition-duration: .2s;
+  display: flex;
+}
+
+.djdj:hover {
+  color: #fff;
+  transform: translate(0, -2px);
 }
 
 @media screen and (min-width: 1280px) {
@@ -26310,6 +26366,11 @@
   .tit {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  .sdkfklgjnkl, .djdj {
+    font-size: .8rem;
+    line-height: 1rem;
   }
 }
 
