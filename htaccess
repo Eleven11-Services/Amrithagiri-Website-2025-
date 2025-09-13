@@ -1,0 +1,14 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Redirect requests with .html to their extension-less equivalent
+RewriteCond %{THE_REQUEST} \s(.+)\.html\s [NC]
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Serve requests without .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Set default index file
+DirectoryIndex index.html
