@@ -16458,6 +16458,30 @@
   line-height: 2rem;
 }
 
+.samirarticle22 {
+  color: #333;
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.samart2head {
+  font-size: 2.5rem;
+}
+
+.samartbody {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.samart2date, .samart1date {
+  color: #9899ad;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 120%;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-navbar-wrapper {
     grid-column-gap: 100px;
@@ -23494,7 +23518,7 @@
     width: auto;
   }
 
-  .parapri2 {
+  .parapri2, .samartbody {
     margin-left: 14px;
   }
 }
@@ -26443,7 +26467,7 @@
     display: block;
   }
 
-  .oo, .priart2 {
+  .oo, .priart2, .samart2head {
     font-size: 2rem;
     line-height: 2.5rem;
   }
@@ -26950,7 +26974,7 @@
     order: -9999;
   }
 
-  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-c6de9efa, #w-node-_87958452-bc6a-0af0-159c-6a93fc2038d7-195fb631, #w-node-_3f5bcf35-5ffd-c515-cc11-85b2aa29d9be-195fb631, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-74d37d60, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-bfd2b560, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-35fd6f13, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-e4de37cf {
+  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-c6de9efa, #w-node-_87958452-bc6a-0af0-159c-6a93fc2038d7-195fb631, #w-node-_3f5bcf35-5ffd-c515-cc11-85b2aa29d9be-195fb631, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-74d37d60, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-bfd2b560, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-35fd6f13, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-e4de37cf, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-700023eb {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
