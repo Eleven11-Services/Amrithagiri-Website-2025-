@@ -2824,9 +2824,13 @@
 .grid-block_best-seller.latest-episode {
   cursor: pointer;
   cursor: pointer;
-  height: 500px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100%;
   -webkit-text-decoration: none;
   text-decoration: none;
+  display: block;
   position: relative;
 }
 
@@ -5426,8 +5430,12 @@
 
 .image-wrapper-latest-2 {
   border-radius: 52px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 500px;
+  height: 100%;
+  display: flex;
   position: static;
 }
 
@@ -5437,6 +5445,7 @@
   border-radius: 52px;
   width: 100%;
   height: 500px;
+  display: flex;
   position: absolute;
 }
 
@@ -5558,8 +5567,8 @@
 }
 
 .product-content-wrapper-2 {
-  grid-column-gap: 250px;
-  grid-row-gap: 250px;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
   background-color: #0000;
   border-radius: 52px;
   flex-flow: column;
@@ -5569,7 +5578,7 @@
   padding: 30px;
   display: flex;
   position: absolute;
-  inset: auto 0% 0%;
+  inset: auto;
 }
 
 .project_feature-1_image {
@@ -6165,7 +6174,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6363,7 +6372,7 @@
 
 .hero-overlay-star-2 {
   opacity: .1;
-  background-image: url('../images/star-40.png');
+  background-image: url('../images/');
   background-position: 30% 130%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6661,7 +6670,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6724,7 +6733,7 @@
 
 .hero-overlay-star-4 {
   opacity: .1;
-  background-image: url('../images/star-40.png');
+  background-image: url('../images/');
   background-position: 30% 130%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6745,7 +6754,7 @@
 
 .section-hero-2-1 {
   color: #fff;
-  background-image: linear-gradient(#00000080, #00000080), url('../images/portrait-person-practicing-yoga-beach-sunset.jpg');
+  background-image: linear-gradient(#00000080, #00000080), url('../images/');
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   align-items: center;
@@ -6942,7 +6951,7 @@
 
 .hero-overlay-star-6 {
   opacity: .1;
-  background-image: url('../images/star-40.png');
+  background-image: url('../images/');
   background-position: 30% 130%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7191,7 +7200,7 @@
 
 .hero-overlay-star-8 {
   opacity: .1;
-  background-image: url('../images/star-40.png');
+  background-image: url('../images/');
   background-position: 30% 130%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7394,7 +7403,7 @@
 
 .hero-overlay-star-9 {
   opacity: .1;
-  background-image: url('../images/star-40.png');
+  background-image: url('../images/');
   background-position: 30% 130%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7586,13 +7595,13 @@
 }
 
 .image-block._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -7604,13 +7613,13 @@
 }
 
 .image-block._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
 
 .image-block._4 {
-  background-image: url('../images/sea-wave-surfer-ocean-67386.jpg');
+  background-image: url('../images/');
   background-position: 100%;
   background-size: cover;
 }
@@ -7648,7 +7657,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7751,7 +7760,7 @@
 }
 
 .g04_image {
-  background-image: url('../images/Mockup-Web-–-2.png');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
   border-radius: 10px;
@@ -7759,29 +7768,29 @@
 }
 
 .g04_image._03 {
-  background-image: url('../images/601dd12503f3f8203531d0a8_Mockup-App-v2-–-42x.png');
+  background-image: url('../images/');
   background-position: 50%;
   border-radius: 10px;
 }
 
 .g04_image._08 {
-  background-image: url('../images/Mockup-App-v2-–-7.png');
+  background-image: url('../images/');
   background-position: 50%;
   border-radius: 10px;
 }
 
 .g04_image._07 {
-  background-image: url('../images/601dd125ebb6367b8324cb9c_Mockup-Web-–-3.png');
+  background-image: url('../images/');
   border-radius: 10px;
 }
 
 .g04_image._06 {
-  background-image: url('../images/601dd125f20d9f1f12954187_Mockup-Web-–-5.png');
+  background-image: url('../images/');
   border-radius: 10px;
 }
 
 .g04_image._01 {
-  background-image: url('../images/Mockup-Web-–-3.png');
+  background-image: url('../images/');
   border-radius: 10px;
 }
 
@@ -8179,7 +8188,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -8342,7 +8351,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -8471,7 +8480,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -8594,7 +8603,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -8797,7 +8806,7 @@
   z-index: 1;
   opacity: .15;
   color: #fff;
-  background-image: url('../images/star-50.png');
+  background-image: url('../images/');
   background-position: -20px -30px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -11594,13 +11603,13 @@
 }
 
 .image-block-copy._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-copy._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -11612,13 +11621,13 @@
 }
 
 .image-block-copy._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
 
 .image-block-copy._4 {
-  background-image: url('../images/sea-wave-surfer-ocean-67386.jpg');
+  background-image: url('../images/');
   background-position: 100%;
   background-size: cover;
 }
@@ -12874,13 +12883,13 @@
 }
 
 .image-block-s1._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-s1._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -12892,7 +12901,7 @@
 }
 
 .image-block-s1._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -12932,13 +12941,13 @@
 }
 
 .image-block-s1-2._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-s1-2._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -12950,13 +12959,13 @@
 }
 
 .image-block-s1-2._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
 
 .image-block-s1-2._4 {
-  background-image: url('../images/sea-wave-surfer-ocean-67386.jpg');
+  background-image: url('../images/');
   background-position: 100%;
   background-size: cover;
 }
@@ -12990,13 +12999,13 @@
 }
 
 .image-block-s3._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-s3._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -13008,7 +13017,7 @@
 }
 
 .image-block-s3._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -13048,13 +13057,13 @@
 }
 
 .image-block-s5._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-s5._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -13066,7 +13075,7 @@
 }
 
 .image-block-s5._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -13106,13 +13115,13 @@
 }
 
 .image-block-s6._1:hover {
-  background-image: url('../images/person-surfing-on-blue-sea-3925065.jpg');
+  background-image: url('../images/');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image-block-s6._5 {
-  background-image: url('../images/man-surfing-during-day-1644724.jpg');
+  background-image: url('../images/');
   background-position: 50%;
   background-size: cover;
 }
@@ -13124,7 +13133,7 @@
 }
 
 .image-block-s6._6 {
-  background-image: url('../images/surfing-surfer-wave-sea-7862.jpg');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -13206,7 +13215,7 @@
 }
 
 .why-insights {
-  background-image: url('../images/amrithagirihimalaya.in.png');
+  background-image: url('../images/');
   background-position: 0 15%;
   background-size: cover;
 }
@@ -15729,7 +15738,7 @@
 }
 
 .grid-3.gallery-grid {
-  grid-template-columns: 295px minmax(295px, 295px) minmax(295px, 295px);
+  grid-template-columns: 295px minmax(295px, 295px);
 }
 
 .gs-seven-content {
@@ -15782,8 +15791,9 @@
 
 .gs-desc {
   color: #112631;
-  text-transform: uppercase;
-  font-size: 48px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -15939,6 +15949,7 @@
 .gs-small-title {
   color: #31705d;
   margin-top: 10px;
+  margin-bottom: 15px;
   font-weight: 500;
   line-height: 40px;
 }
@@ -16489,6 +16500,34 @@
 
 .button-group-copy-for-hero.margin {
   margin-top: 2rem;
+}
+
+.product-tittle-2-copy333, .galley-title, .gallery-title {
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 6rem;
+  line-height: 1.2;
+  text-decoration: none;
+  position: relative;
+}
+
+.container-copy-gallery {
+  z-index: 5;
+  flex: 1;
+  align-self: stretch;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container-copy-gallery.best-sellers {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0% 0;
+  display: flex;
 }
 
 @media screen and (min-width: 1280px) {
@@ -20213,6 +20252,17 @@
   .get-started-info-copy-peacebuilding-through-trade, .get-started-info-copy-copy-for-peace-building-samirkumar-das {
     width: auto;
   }
+
+  .product-tittle-2-copy333, .galley-title, .gallery-title {
+    padding-bottom: 1rem;
+    font-size: 48px;
+  }
+
+  .container-copy-gallery.best-sellers {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -23534,6 +23584,18 @@
   .parapri2, .samartbody {
     margin-left: 14px;
   }
+
+  .product-tittle-2-copy333, .galley-title, .gallery-title {
+    font-size: 36px;
+  }
+
+  .container-copy-gallery.best-sellers._2 {
+    padding-bottom: 0;
+  }
+
+  .container-copy-gallery.best-sellers {
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -23714,6 +23776,10 @@
   .is-white.events, .is-white.projects {
     font-size: 3rem;
     line-height: 3.5rem;
+  }
+
+  .container.best-sellers {
+    align-items: center;
   }
 
   .image-6-copy, .image-67 {
@@ -26488,6 +26554,14 @@
     font-size: 2rem;
     line-height: 2.5rem;
   }
+
+  .product-tittle-2-copy333, .galley-title, .gallery-title {
+    font-size: 27px;
+  }
+
+  .container-copy-gallery.best-sellers {
+    align-items: center;
+  }
 }
 
 #w-node-_55f02404-4e9c-513b-1c75-cd61d262ea46-8ecf39e8 {
@@ -26857,6 +26931,78 @@
   justify-self: center;
 }
 
+#w-node-ce7c24d8-396f-155b-0704-31e9cf7429b4-e4284e73 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#w-node-ce7c24d8-396f-155b-0704-31e9cf742b0d-e4284e73 {
+  justify-self: center;
+}
+
+#w-node-ce7c24d8-396f-155b-0704-31e9cf742b77-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b82-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b8d-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b98-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742ba3-e4284e73, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87d-17d09db3 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-17d09db3 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-17d09db3 {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae893-17d09db3, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae896-17d09db3, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae899-17d09db3, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a0-17d09db3 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a7-17d09db3 {
+  grid-area: 4 / 2 / 5 / 4;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8aa-17d09db3, #w-node-_5d2f5d18-c63f-a2e2-f0d0-23e8ef9ed761-17d09db3, #w-node-adf2e834-966f-5f2d-52db-6b03d1456a4a-17d09db3, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87d-0286b2d1 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-0286b2d1 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-0286b2d1 {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae893-0286b2d1, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae896-0286b2d1, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae899-0286b2d1, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a0-0286b2d1 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a7-0286b2d1 {
+  grid-area: 4 / 2 / 5 / 4;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8aa-0286b2d1, #w-node-_5d2f5d18-c63f-a2e2-f0d0-23e8ef9ed761-0286b2d1, #w-node-adf2e834-966f-5f2d-52db-6b03d1456a4a-0286b2d1, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87d-71d3b7df {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-71d3b7df {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-71d3b7df {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae893-71d3b7df, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae896-71d3b7df, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae899-71d3b7df, #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a0-71d3b7df {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8a7-71d3b7df {
+  grid-area: 4 / 2 / 5 / 4;
+}
+
+#w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae8aa-71d3b7df, #w-node-_5d2f5d18-c63f-a2e2-f0d0-23e8ef9ed761-71d3b7df, #w-node-adf2e834-966f-5f2d-52db-6b03d1456a4a-71d3b7df {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
 @media screen and (min-width: 1920px) {
   #w-node-cb0f9daf-dbc7-23bc-9796-e2ec04d93df5-b27514b8 {
     grid-column: span 1 / span 1;
@@ -26941,7 +27087,7 @@
     justify-self: start;
   }
 
-  #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-c5ceffdf, #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-6765b840 {
+  #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-c5ceffdf, #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-6765b840, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b0d-e4284e73 {
     justify-self: center;
   }
 }
@@ -26991,8 +27137,12 @@
     order: -9999;
   }
 
-  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-c6de9efa, #w-node-_87958452-bc6a-0af0-159c-6a93fc2038d7-195fb631, #w-node-_3f5bcf35-5ffd-c515-cc11-85b2aa29d9be-195fb631, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-74d37d60, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-bfd2b560, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-35fd6f13, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-e4de37cf, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-700023eb, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-84f0534b {
+  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-c6de9efa, #w-node-_87958452-bc6a-0af0-159c-6a93fc2038d7-195fb631, #w-node-_3f5bcf35-5ffd-c515-cc11-85b2aa29d9be-195fb631, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-74d37d60, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-bfd2b560, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-35fd6f13, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-e4de37cf, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-700023eb, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-84f0534b, #w-node-ce7c24d8-396f-155b-0704-31e9cf7429b4-e4284e73 {
     grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-ce7c24d8-396f-155b-0704-31e9cf7429c4-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf7429e2-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742a00-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742a23-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742a3e-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742a5f-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742a83-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742aa0-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742abb-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742ad8-e4284e73, #w-node-ce7c24d8-396f-155b-0704-31e9cf742af3-e4284e73 {
+    order: -9999;
   }
 }
 
@@ -27010,8 +27160,35 @@
     grid-area: span 2 / span 1 / span 2 / span 1;
   }
 
-  #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-c5ceffdf, #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-6765b840 {
+  #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-c5ceffdf, #w-node-_55f02404-4e9c-513b-1c75-cd61d262ebe1-6765b840, #w-node-ce7c24d8-396f-155b-0704-31e9cf742b0d-e4284e73 {
     grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-17d09db3 {
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-17d09db3 {
+    grid-area: span 2 / span 1 / span 2 / span 1;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-0286b2d1 {
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-0286b2d1 {
+    grid-area: span 2 / span 1 / span 2 / span 1;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae87f-71d3b7df {
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_7d4428a9-6cb8-a77d-805d-927d5f0ae88c-71d3b7df {
+    grid-area: span 2 / span 1 / span 2 / span 1;
   }
 }
 
