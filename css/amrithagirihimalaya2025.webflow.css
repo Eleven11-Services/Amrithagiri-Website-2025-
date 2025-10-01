@@ -4927,8 +4927,8 @@
 .image-693 {
   aspect-ratio: auto;
   object-fit: contain;
-  width: 100%;
-  height: auto;
+  width: 568px;
+  height: 499.047px;
 }
 
 .navbar1_component-11 {
@@ -16530,6 +16530,20 @@
   display: flex;
 }
 
+._333 {
+  aspect-ratio: auto;
+  object-fit: contain;
+  width: 568px;
+  height: 499px;
+}
+
+._78787 {
+  aspect-ratio: auto;
+  object-fit: contain;
+  width: auto;
+  height: 499.047px;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-navbar-wrapper {
     grid-column-gap: 100px;
@@ -26561,6 +26575,11 @@
 
   .container-copy-gallery.best-sellers {
     align-items: center;
+  }
+
+  ._333, ._78787 {
+    width: 270px;
+    height: auto;
   }
 }
 
