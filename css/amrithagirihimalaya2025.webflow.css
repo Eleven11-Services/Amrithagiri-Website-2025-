@@ -4583,6 +4583,18 @@
   top: 420px;
 }
 
+.c-card._7 {
+  max-width: 1000px;
+  position: sticky;
+  top: 560px;
+}
+
+.c-card._8 {
+  max-width: 1000px;
+  position: sticky;
+  top: 640px;
+}
+
 .card-subtitle {
   color: #000;
   margin-top: 0;
@@ -7853,7 +7865,7 @@
   padding: 20px 50px;
   font-size: 15px;
   font-weight: 600;
-  line-height: 14px;
+  line-height: 20px;
   transition-property: all;
   transition-duration: .2s;
   display: block;
@@ -17537,6 +17549,10 @@
 
   .container-default-3 {
     max-width: 1400px;
+  }
+
+  ._565656, ._666 {
+    justify-content: center;
   }
 }
 
