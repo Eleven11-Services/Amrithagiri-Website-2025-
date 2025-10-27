@@ -4249,6 +4249,13 @@
   background-size: auto, cover;
 }
 
+.header-blog-2._8-copy99 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/portrait-young-girl-with-traditional-clothing.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
 .image-709 {
   border-radius: 4px;
 }
@@ -17337,6 +17344,104 @@
   font-size: 2.5rem;
 }
 
+.header-blog-2-copy-44 {
+  background-color: #5c4ebd00;
+  background-image: linear-gradient(#0000004a, #0000004a), none;
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 745px;
+  padding: 162px 3% 220px;
+  display: flex;
+}
+
+.header-blog-2-copy-44._6 {
+  background-image: linear-gradient(#0003, #0003), url('../images/crowded-scene-indian-city-3.webp');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44._8 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/portrait-young-girl-with-traditional-clothing.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44._8-copy {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/beautiful-scenery-clear-white-snowy-mountains-hills_1.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44._10 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/luca-bravo-VowIFDxogG4-unsplash_1.webp');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44._8-copy99 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/Screenshot-2025-10-27-at-4.22.44-PM.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55 {
+  background-color: #5c4ebd00;
+  background-image: linear-gradient(#0000004a, #0000004a), none;
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 745px;
+  padding: 162px 3% 220px;
+  display: flex;
+}
+
+.header-blog-2-copy-44-copy-55._6 {
+  background-image: linear-gradient(#0003, #0003), url('../images/crowded-scene-indian-city-3.webp');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55._8 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/portrait-young-girl-with-traditional-clothing.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55._8-copy {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/beautiful-scenery-clear-white-snowy-mountains-hills_1.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55._10 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/luca-bravo-VowIFDxogG4-unsplash_1.webp');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55._8-copy99, .header-blog-2-copy-44-copy-55._8-copy99-copy44 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/Screenshot-2025-10-27-at-4.22.44-PM.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-navbar-wrapper {
     grid-column-gap: 100px;
@@ -17426,6 +17531,13 @@
 
   .container-default-3 {
     max-width: 1250px;
+  }
+
+  .header-blog-2-copy-44._8-copy, .header-blog-2-copy-44-copy-55._8-copy {
+    background-image: linear-gradient(#00000080, #00000080), url('../images/calender.webp');
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
   }
 }
 
@@ -24679,6 +24791,11 @@
   .copyy, .natural-disaster-copy {
     margin-left: 14px;
   }
+
+  .header-blog-2-copy-44, .header-blog-2-copy-44-copy-55 {
+    justify-content: center;
+    padding-bottom: 162px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -27812,6 +27929,10 @@
   .nobel-prize {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  .header-blog-2-copy-44, .header-blog-2-copy-44-copy-55 {
+    min-height: 680px;
   }
 }
 
