@@ -17435,8 +17435,15 @@
   background-size: auto, cover;
 }
 
-.header-blog-2-copy-44-copy-55._8-copy99, .header-blog-2-copy-44-copy-55._8-copy99-copy44 {
+.header-blog-2-copy-44-copy-55._8-copy99 {
   background-image: linear-gradient(#00000080, #00000080), url('../images/Screenshot-2025-10-27-at-4.22.44-PM.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.header-blog-2-copy-44-copy-55._8-copy99-copy44 {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/freepik__eco-tourism-in-the-himalayas-india-travelers-hikin__35970.jpeg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
