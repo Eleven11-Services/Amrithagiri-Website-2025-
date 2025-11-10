@@ -4423,7 +4423,7 @@
 
 .c-cards-list {
   transition: all .2s;
-  position: relative;
+  position: static;
 }
 
 .container-large-17 {
@@ -4527,7 +4527,7 @@
   padding-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  position: sticky;
+  position: static;
   top: 1px;
 }
 
@@ -25640,6 +25640,12 @@
     font-size: 2.5em;
   }
 
+  .c-card-title {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    flex-flow: column;
+  }
+
   .image-694 {
     width: 270px;
     height: auto;
@@ -28321,6 +28327,10 @@
 
 #w-node-_254fb296-d190-92b7-1af7-37bd7aa49636-9b524b62, #w-node-_0eba4192-d00b-d797-c3c5-e0fc69f7279d-9b524b62 {
   justify-self: end;
+}
+
+#w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db87-9b524b62 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_49106aac-670e-5a6f-dc25-0366a827eb79-c3b05b4d {
