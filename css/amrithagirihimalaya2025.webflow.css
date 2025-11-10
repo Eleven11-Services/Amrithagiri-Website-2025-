@@ -3541,6 +3541,13 @@
   margin-right: 0;
 }
 
+.margin-bottom-780.margin-small {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: visible;
+}
+
 .margin-bottom-780.margin-xsmall {
   margin-top: 0;
   margin-left: 0;
@@ -3548,6 +3555,7 @@
 }
 
 .margin-bottom-780.margin-small {
+  text-align: left;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -4434,7 +4442,7 @@
 }
 
 .text-size-medium-copy {
-  text-align: left;
+  text-align: center;
   margin-top: 2rem;
   font-size: 1.125rem;
   line-height: 2rem;
@@ -17506,6 +17514,28 @@
   box-shadow: 0 4px 24px #96a3b514;
 }
 
+.margin-bottom-5-copy {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-bottom-5-copy.margin-small-copy {
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+.margin-bottom-5-copy.margin-xxlarge-copy {
+  flex-flow: row;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+}
+
 @media screen and (min-width: 1280px) {
   .footer-navbar-wrapper {
     grid-column-gap: 100px;
@@ -17602,6 +17632,10 @@
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
+  }
+
+  .margin-bottom-5-copy.margin-xxlarge-copy {
+    justify-content: center;
   }
 }
 
@@ -17733,9 +17767,18 @@
   ._565656, ._666 {
     justify-content: center;
   }
+
+  .margin-bottom-5-copy.margin-xxlarge-copy {
+    justify-content: center;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1920px) {
+  .margin-bottom-5.margin-xxlarge-copy {
+    display: block;
+  }
+
   .image-overlay-layer-3 {
     background-color: #00000070;
     background-image: linear-gradient(#0000005e, #0000005e);
@@ -17928,6 +17971,11 @@
 
   ._565656, ._666 {
     justify-content: center;
+  }
+
+  .margin-bottom-5-copy.margin-xxlarge-copy {
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -21413,6 +21461,12 @@
     max-width: 100%;
     margin-bottom: 40px;
   }
+
+  .margin-bottom-5-copy {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -24880,6 +24934,12 @@
   .hero-heading-left {
     padding: 60px 15px;
   }
+
+  .margin-bottom-5-copy {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -28027,6 +28087,12 @@
 
   .container-44 {
     max-width: none;
+  }
+
+  .margin-bottom-5-copy {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
