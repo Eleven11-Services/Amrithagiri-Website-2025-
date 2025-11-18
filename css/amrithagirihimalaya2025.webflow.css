@@ -16477,7 +16477,18 @@
   display: flex;
 }
 
-.priyankart1, .priyankart2 {
+.priyankart1 {
+  color: #333;
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.priyankaart2 {
+  font-size: 1.5rem;
+}
+
+.priyankart2 {
   color: #333;
   margin-bottom: 24px;
   font-size: 15px;
@@ -28658,7 +28669,7 @@
     order: -9999;
   }
 
-  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-41c109b4, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-6a19a7e5 {
+  #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-41c109b4, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-6a19a7e5, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-2326f0d6, #w-node-_3dc3d340-7a5c-2f59-0aa2-e7972e95db9a-358d09d4 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
